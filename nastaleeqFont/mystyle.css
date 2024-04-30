@@ -1,0 +1,108 @@
+
+
+@font-face {
+    font-family: Noori;
+    src: url("Jameel_Noori_Nastaleeq.ttf");
+}
+@font-face {
+    font-family: Qalam;
+    src: url("Al Qalam Quran Majeed Web Regular.ttf");
+}
+@font-face {
+    font-family: Noto;
+    src: url("NotoNastaliqUrdu-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: Noto2;
+    src: url("arfonts-noto-nastaliq-urdu-bold.ttf");
+}
+
+@font-face {
+    font-family: mehr;
+    src: url("MehrNastaliqWeb.ttf");
+}
+
+
+@font-face {
+    font-family: NotoNastaliqUrdu-Regular;
+    src: url("NotoNastaliqUrdu-Regular.ttf");
+}
+
+@font-face {
+    font-family: arefruqaa-regular;
+    src: url("arefruqaa-regular.ttf");
+}
+
+
+
+@font-face {
+    font-family: sakkal;
+    src: url("majalla.ttf");
+}
+
+
+
+
+
+body {
+  
+    direction: rtl;
+    text-align: center;
+    font-size: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+} 
+/* ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+} */
+
+
+
+.Noori{
+
+    font-family: Noori;
+}  
+
+.Qalam{
+
+    font-family: Qalam;
+}  
+.Noto{
+
+    font-family: Noto;
+}
+  .Noto2{
+
+    font-family: Noto2;
+}  
+.Mehr{
+
+    font-family: mehr;
+} 
+
+.NotoNastaliqUrdu-Regular{
+
+    font-family: NotoNastaliqUrdu-Regular;
+} 
+
+.arefruqaa-regular {
+
+    font-family: arefruqaa-regular;
+} 
+
+.sakkal{
+
+    font-family: sakkal;
+} 
+
+#wrapper {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.topAlignWrapper{
+    align-items: flex-start !important;
+} 
+
